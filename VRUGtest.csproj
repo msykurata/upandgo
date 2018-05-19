@@ -82,8 +82,10 @@
     <Compile Include="Assets\Scriptttt\Result.cs" />
     <Compile Include="Assets\Scriptttt\SliderScript.cs" />
     <Compile Include="Assets\Scriptttt\Timecount.cs" />
+    <Compile Include="Assets\Scriptttt\chairchange.cs" />
     <Compile Include="Assets\Scriptttt\click.cs" />
     <Compile Include="Assets\Scriptttt\count.cs" />
+    <Compile Include="Assets\Scriptttt\csv.cs" />
     <Compile Include="Assets\Scriptttt\ctrl.cs" />
     <Compile Include="Assets\Scriptttt\trig.cs" />
     <Compile Include="Assets\Scriptttt\widtext.cs" />

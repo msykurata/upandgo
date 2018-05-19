@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUGtest3.1", "VRUGtest3.1.csproj", "{BDF138E5-2497-113F-B4B0-84A0CFCA498B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUGtest3.1.Editor", "VRUGtest3.1.Editor.csproj", "{1A18B3EF-09DC-B7F5-90B5-50A187133A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF138E5-2497-113F-B4B0-84A0CFCA498B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF138E5-2497-113F-B4B0-84A0CFCA498B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF138E5-2497-113F-B4B0-84A0CFCA498B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF138E5-2497-113F-B4B0-84A0CFCA498B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A18B3EF-09DC-B7F5-90B5-50A187133A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A18B3EF-09DC-B7F5-90B5-50A187133A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A18B3EF-09DC-B7F5-90B5-50A187133A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A18B3EF-09DC-B7F5-90B5-50A187133A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUGtest3", "VRUGtest3.csproj", "{4F63C327-B3CB-82A3-E2DC-4C741E492B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUGtest3.Editor", "VRUGtest3.Editor.csproj", "{640A8490-1E83-D8AB-9B64-1CCAEA075F82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F63C327-B3CB-82A3-E2DC-4C741E492B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F63C327-B3CB-82A3-E2DC-4C741E492B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F63C327-B3CB-82A3-E2DC-4C741E492B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F63C327-B3CB-82A3-E2DC-4C741E492B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640A8490-1E83-D8AB-9B64-1CCAEA075F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640A8490-1E83-D8AB-9B64-1CCAEA075F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640A8490-1E83-D8AB-9B64-1CCAEA075F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640A8490-1E83-D8AB-9B64-1CCAEA075F82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
