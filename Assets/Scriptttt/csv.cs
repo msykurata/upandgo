@@ -57,7 +57,7 @@ public class csv : MonoBehaviour
             {
                 onetimepos = transform.position;
                 //StreamWriter sw = new StreamWriter(DataName, true, Encoding.GetEncoding("Shift_JIS"));
-                StreamWriter sw = new StreamWriter(DataName, true, Encoding.GetEncoding("Shift_JIS"));
+                StreamWriter sw = new StreamWriter(DataName, true);
                 string[] onepos = { time1.ToString(), onetimepos.x.ToString(), onetimepos.y.ToString(), onetimepos.z.ToString() };
                 string poslog = string.Join(",", onepos);
                 sw.WriteLine(poslog);
@@ -113,7 +113,7 @@ public class csv : MonoBehaviour
                     break;
                 }
             }
-            StreamWriter sw = new StreamWriter(DataName, false, Encoding.GetEncoding("Shift_JIS"));
+            StreamWriter sw = new StreamWriter(DataName, false);
             // ヘッダー出力
             string[] s1 = { "time", "x", "y", "z" };
             string s2 = string.Join(",", s1);

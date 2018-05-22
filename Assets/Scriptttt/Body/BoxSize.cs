@@ -15,13 +15,10 @@ public class BoxSize : MonoBehaviour {
     private float BoxSizeY;
     public float BoxSizeZ;
     public GameObject SizeInput;
+
     void Start () {
 		body = GameObject.Find("Camera (eye)");
-        if (SizeInput.activeInHierarchy)
-        {
-            GameObject.Find("BoxX").GetComponent<InputField>().text = "30";  //InputFieldにテキストが設定される
-            GameObject.Find("BoxZ").GetComponent<InputField>().text = "30";
-        }
+        
         
         Size = this.transform.localScale; //初期値を基準とする。　オブジェクトは1辺1mに設定しておく
         BoxSizeX = 30f;　//入力初期値
@@ -45,6 +42,8 @@ public class BoxSize : MonoBehaviour {
         catch (FormatException e)
         {
             Debug.Log(e.Message);
+            Debug.Log(BoxSizeX);
+            Debug.Log(BoxSizeZ);
             //BoxSizeX == null ? BoxSizeX = 0 : BoxSizeZ = 0;
         }
     }

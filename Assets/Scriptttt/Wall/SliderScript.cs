@@ -12,10 +12,11 @@ public class SliderScript : MonoBehaviour {
 
     void Start()
     {
-        
+        mwidth.GetComponent<MoveWidth>().width = GetComponent<Slider>().value / 10;
+        widthtext.GetComponent<widtext>().width = GetComponent<Slider>().value / 10;
     }
 
-    void Update()
+    public void wallt()
     {
         mwidth.GetComponent<MoveWidth>().width=GetComponent<Slider>().value/10;
         widthtext.GetComponent<widtext>().width = GetComponent<Slider>().value/10;

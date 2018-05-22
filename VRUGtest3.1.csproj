@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scriptttt\Timecount.cs" />
     <Compile Include="Assets\Scriptttt\UI\Colchange.cs" />
     <Compile Include="Assets\Scriptttt\UI\CtrlFB.cs" />
+    <Compile Include="Assets\Scriptttt\UI\DistDisp.cs" />
     <Compile Include="Assets\Scriptttt\UI\Result.cs" />
     <Compile Include="Assets\Scriptttt\UI\ResultP.cs" />
     <Compile Include="Assets\Scriptttt\UI\chairchange.cs" />

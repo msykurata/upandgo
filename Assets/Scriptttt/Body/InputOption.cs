@@ -5,13 +5,16 @@ using UnityEngine.UI;
 
 public class InputOption : MonoBehaviour {
 
-    public BoxSize boxsize;
+    
     public GameObject SizeInput;
 
-
+    private string inputX;
+    private string inputZ;
+    private int count = 0;
     // Use this for initialization
     void Start () {
-		
+        inputX = "30";
+        inputZ = "30";
 	}
 	
 	// Update is called once per frame
@@ -20,11 +23,13 @@ public class InputOption : MonoBehaviour {
 	}
     public void clickOption()
     {
-        if (SizeInput.activeInHierarchy)
+        if (SizeInput.activeInHierarchy&&count==0)
         {
-            GameObject.Find("BoxX").GetComponent<InputField>().text = boxsize.BoxSizeX.ToString();  //InputFieldにテキストが設定される
-            GameObject.Find("BoxZ").GetComponent<InputField>().text = boxsize.BoxSizeZ.ToString();
+            GameObject.Find("BoxX").GetComponent<InputField>().text = inputX;  //InputFieldにテキストが設定される
+            GameObject.Find("BoxZ").GetComponent<InputField>().text = inputZ;
         }
+        count++;
            
     }
+   
 }

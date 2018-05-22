@@ -12,10 +12,11 @@ public class plpsSlider : MonoBehaviour {
 
     void Start()
     {
-        
+        ppos.GetComponent<PolePos>().plps = GetComponent<Slider>().value / 10;
+        ptxt.GetComponent<plpsTxt>().plpstxt = GetComponent<Slider>().value / 10;
     }
 
-    void Update()
+    public void plps()
     {
         ppos.GetComponent<PolePos>().plps=GetComponent<Slider>().value/10;
         ptxt.GetComponent<plpsTxt>().plpstxt = GetComponent<Slider>().value/10;
